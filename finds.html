@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Finds of the Week — Spreadsheet Kakobuy</title>
+  <meta name="description" content="This week's hand-picked KakoBuy finds with QC photos and live seller links." />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
+  <link rel="canonical" href="https://kakobuyqcspreadsheet.com/finds.html" />
+  <meta property="og:url" content="https://kakobuyqcspreadsheet.com/finds.html" />
+  <meta property="og:image" content="https://kakobuyqcspreadsheet.com/img/og.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="icon" href="img/favicon.svg?v=3" type="image/svg+xml" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32.png" />
+  <link rel="manifest" href="/manifest.json?v=pwa12" />
+  <script src="/js/pwa-boot.js?v=pwa11"></script>
+  <meta name="theme-color" content="#FB2840" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="apple-mobile-web-app-title" content="KakoBuy Spreadsheet" />
+  <meta name="application-name" content="KakoBuy Spreadsheet" />
+  <link rel="apple-touch-icon" href="/img/apple-touch-icon.png" sizes="180x180" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body data-page="finds">
+  <div class="promo-bar" id="promo"></div>
+  <header class="site-header" id="site-header"></header>
+  <div class="overlay" id="overlay"></div>
+  <aside class="mobile-nav" id="mobile-nav"></aside>
+  <main>
+    <section class="page-hero">
+      <div class="wrap">
+        <div class="crumbs">Home / <span>Finds of the Week</span></div>
+        <h1>This week's picks</h1>
+        <p class="lede">Featured finds from the latest review — 21 Sept 2026. Same spreadsheet, tighter cut.</p>
+      </div>
+    </section>
+    <section class="section tight">
+      <div class="wrap">
+        <div class="toolbar">
+          <div class="search">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+            <input id="catalog-search" placeholder="Filter this week's picks…" />
+          </div>
+          <select id="catalog-cat"><option value="">All categories</option></select>
+          <select id="catalog-sort">
+            <option value="featured">Featured</option>
+            <option value="boosted">Most boosted</option>
+            <option value="price-asc">Price: low to high</option>
+            <option value="price-desc">Price: high to low</option>
+          </select>
+        </div>
+        <p id="result-count"></p>
+        <div class="product-grid" id="catalog-grid"></div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer" id="site-footer"></footer>
+  <script src="js/products.js"></script>
+  <script src="js/site.js?v=pwa29"></script>
+  <script src="js/app.js?v=pwa17"></script>
+</body>
+</html>

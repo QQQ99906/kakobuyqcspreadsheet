@@ -1,0 +1,9 @@
+.git
+.git/**
+**/.DS_Store
+.wrangler/
+.wrangler/**
+wrangler.toml
+.gitignore
+.assetsignore
+scripts/

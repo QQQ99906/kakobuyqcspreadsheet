@@ -1,0 +1,8 @@
+name = "kakobuyqcspreadsheet-com"
+compatibility_date = "2026-09-21"
+
+# Static site for kakobuyqcspreadsheet.com — GitHub: qjy0126/kakobuyqcspreadsheet.com
+[assets]
+directory = "."
+not_found_handling = "none"
+html_handling = "auto-trailing-slash"

@@ -1,0 +1,50 @@
+{
+  "id": "/",
+  "name": "KakoBuy Spreadsheet",
+  "short_name": "KakoBuy Spreadsheet",
+  "description": "4,000+ Kakobuy replicas with QC photos. Free qualityreps spreadsheet.",
+  "start_url": "/?source=pwa",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui", "browser"],
+  "orientation": "any",
+  "background_color": "#f6f3ec",
+  "theme_color": "#FB2840",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": ["shopping", "lifestyle"],
+  "icons": [
+    {
+      "src": "/img/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/img/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/img/icon-512-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Browse spreadsheet",
+      "short_name": "Spreadsheet",
+      "url": "/spreadsheet.html",
+      "icons": [{ "src": "/img/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Coupons",
+      "short_name": "Coupons",
+      "url": "/coupons.html",
+      "icons": [{ "src": "/img/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
