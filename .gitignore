@@ -1,13 +1,7 @@
 .DS_Store
 .wrangler/
 node_modules/
-
-# Product pages, product images, and product data are too large for GitHub
-item/
-pl/item/
-de/item/
-img/products/
-js/products.js
+.vscode/
 
 scripts/__pycache__/
 *.pyc
