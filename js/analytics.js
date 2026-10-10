@@ -1,13 +1,13 @@
-/* kakobuyqcspreadsheet.com — Firebase Analytics / GA4 (kakobuywebsite) */
+/* kakobuyqcspreadsheet.com — Firebase Analytics / GA4 (kweb-f6d3e) */
 (function () {
   var firebaseConfig = {
-    apiKey: "AIzaSyCjVTTHt-nDqR3bPYLQKV45F41tVpTOxBk",
-    authDomain: "kakobuywebsite.firebaseapp.com",
-    projectId: "kakobuywebsite",
-    storageBucket: "kakobuywebsite.firebasestorage.app",
-    messagingSenderId: "588401556889",
-    appId: "1:588401556889:web:7f2a1040a423b4a961a708",
-    measurementId: "G-J7XGTCP578",
+    apiKey: "AIzaSyD5n5wQ7utyLFG5Jm6mhIRtPZrP-_f7FH4",
+    authDomain: "kweb-f6d3e.firebaseapp.com",
+    projectId: "kweb-f6d3e",
+    storageBucket: "kweb-f6d3e.firebasestorage.app",
+    messagingSenderId: "830362085247",
+    appId: "1:830362085247:web:c80d6b8bb065a3d0189c4a",
+    measurementId: "G-X7K28JSWBB",
   };
 
   var MEASUREMENT_ID = firebaseConfig.measurementId;

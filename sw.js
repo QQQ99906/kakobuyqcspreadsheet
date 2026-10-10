@@ -1,4 +1,4 @@
-const CACHE = "sk-pwa-v12";
+const CACHE = "sk-pwa-v13";
 const PRECACHE = [
   "/",
   "/index.html",

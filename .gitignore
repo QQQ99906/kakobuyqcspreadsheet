@@ -2,6 +2,8 @@
 .wrangler/
 node_modules/
 .vscode/
+*.xlsx
 
 scripts/__pycache__/
 *.pyc
+scripts/pic_urls.json
